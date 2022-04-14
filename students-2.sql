@@ -1,9 +1,9 @@
 create table students (
 	id INT,
-	first_name VARCHAR(50),
-	last_name VARCHAR(50),
-	email VARCHAR(50),
-	university VARCHAR(50),
+	first_name VARCHAR,
+	last_name VARCHAR,
+	email VARCHAR,
+	university VARCHAR,
 	age INT
 );
 insert into students (id, first_name, last_name, email, university, age) values (1, 'Lucho', 'Betje', 'lbetje0@vkontakte.ru', 'University of Tennessee - Chattanooga', 23);
